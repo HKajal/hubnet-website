@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images\ \(2\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#menu{
+    height: 70px;
+    position: relative;
+    width: 100%;
+    background-color:rgb(242, 201, 151);
+    box-shadow: 10px 10px 20px antiquewhite;
+    /* position: relative; */
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 22px;
+    float: left;
+    font-weight: bold;
+    line-height: 70px;
+    color: darkslategrey;
+}
+#menu a:hover{
+    text-decoration: underline px black;
+}
+#for{
+    height: 350px;
+    width: 400px;
+    border: 2px solid white;
+    margin-left: 900px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -500px;
+    box-shadow: 10px 10px 25px whitesmoke;
+    border-radius: 20px;
+    border: none;
+    /* display: none; */
+    background-color:rgba(222, 184, 135, 0.199);
+    position: absolute;
+}
+
+h1{
+    color:crimson;
+    background-color: rgba(169, 169, 169, 0.838);
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+.lab{
+    /* margin-top: 20px; */
+    margin: 10px;
+    color: darkslategrey;
+    height: 80px;
+    font-size: 22px;
+}
+.int{
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+#name{
+    margin-left: 68px;
+}
+#user{
+    margin-left: 60px;
+}
+.btn{
+    height: 38px;
+    width: 80px;
+    margin-left: 170px;
+    background-color: rgba(60, 60, 245, 0.765);
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    align-items: center;
+}
+
+/* #signin{
+    margin-left: 280px;
+    margin-top: -30px;
+    color: antiquewhite;
+    
+} */
+.btnload{
+    opacity: 1;
+    transition: all 1s;
+}
+/* .btnn{
+    height: 2px;
+    width: 2px;
+    font-size: 25px;
+} */
+.fa{
+    font-size: 30px;
+    /* margin-left: 10px; */
+    margin-top: 5px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgba(225, 220, 212, 0.133);
+    margin-left: 280px;
+    line-height: 70px;
+    border: none;
+}
+#sgnin{
+    margin-left: 80px;
+    margin-top: -38px;
+}
+#cancle{
+    margin-left: 250px;
+    margin-top: 20px;
+}
